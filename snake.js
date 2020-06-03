@@ -112,6 +112,9 @@ function draw() {
   ) {
     clearInterval(game);
     dead.play();
+        setTimeout(function () {
+      alert("Game Over :( Reload page to play again");
+    }, 500);
   }
 
   snake.unshift(newHead);
