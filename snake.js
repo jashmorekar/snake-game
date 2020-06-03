@@ -112,8 +112,8 @@ function draw() {
   ) {
     clearInterval(game);
     dead.play();
-        setTimeout(function () {
-      alert("Game Over :( Reload page to play again");
+    setTimeout(function () {
+    alert("Game Over :( Reload page to play again");
     }, 500);
   }
 
